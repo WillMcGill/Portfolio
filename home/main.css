@@ -1,0 +1,86 @@
+header{
+    background-color: gray;
+    height: 15vw;
+    width: 100vw;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 20vw 50vw 10vw 10vw 10vw;
+}
+
+body{
+    background-color: lightgrey;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+    
+}
+
+.toprow{
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 10vw 60vw 30vw
+}
+
+.toptext{
+    grid-column-start: 2;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center;
+    font-size: 5vh;
+    
+    }
+
+.skills{
+    grid-column-start: 3;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center;
+    font-size: 5vh;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 10vw 60vw 30vw
+}
+
+.contenttext{
+    grid-column-start: 2;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center;
+}
+
+.skillslist{
+    grid-column-start: 3;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center;
+}
+
+.link-contact{
+    grid-column-start: 5;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center;
+
+}
+
+.link-projects{
+    grid-column-start: 4;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center; 
+}
+
+.link-about{
+    grid-column-start: 3;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    justify-self: center;
+    align-self: center; 
+}
+
+.name-header{
+    justify-self: center;
+    align-self: center; 
+    font-size: 10vh; 
+}
