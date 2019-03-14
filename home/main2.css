@@ -4,15 +4,36 @@ header{
     width: 100vw;
     border: 0px;
     display: grid;
-    grid-template-columns: 20vw 50vw 10vw 10vw 10vw;
+    grid-template-columns: 40vw 20vw 10vw 10vw 10vw;
+   
 }
 
 body{
-    background-color: lightgrey;
+    background-color: white;
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    
-    
+
+}
+
+.profile-photo{
+    height: 100%;
+    grid-column-start: 2;
+    justify-content: center;
+    margin: 5px;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
 }
 
 .toprow{
@@ -27,9 +48,14 @@ body{
     justify-self: center;
     align-self: center;
     font-size: 5vh;
-    
     }
 
+.name-header{
+    font-size: 5vh;
+    color:white;
+    margin-left: 15%;
+    align-self: center;
+}
 .skills{
     grid-column-start: 3;
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
@@ -40,7 +66,12 @@ body{
 
 .content{
     display: grid;
-    grid-template-columns: 10vw 60vw 30vw
+    grid-template-columns: 10vw 60vw 30vw;
+    grid-template-rows: 20vh 80vh;
+    background-color: lightgrey;
+    border: 10px white;
+    justify-content: center;
+
 }
 
 .contenttext{
@@ -62,6 +93,7 @@ body{
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     justify-self: center;
     align-self: center;
+    
 
 }
 
@@ -77,10 +109,7 @@ body{
     /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     justify-self: center;
     align-self: center; 
+    
 }
 
-.name-header{
-    justify-self: center;
-    align-self: center; 
-    font-size: 10vh; 
-}
+

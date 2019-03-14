@@ -1,13 +1,13 @@
 .welcome{
     
-   top: 50%;
-   bottom: 50%;
+   /* top: 50%; */
+   /* bottom: 50%; */
   justify-self: center;
   align-self: center;
-        
-       
-        
-}
+  }
+
+
+
 
 .luckypage{ 
    
@@ -21,3 +21,8 @@
 .luckybutton{
   width: 50%;
 }
+
+.luckybutton:hover{
+  transform: scale(1.25)
+}
+
